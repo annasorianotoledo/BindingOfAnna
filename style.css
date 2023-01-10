@@ -1,1 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'upheaval';
+    display: flex;
+    justify-content: center;
+  }
+  
+@font-face {
+    font-family: 'upheaval';
+    src: url('fonts/upheavtt.eot');
+    src: local('upheaval'), url('fonts/upheavtt.woff') format('woff'), url('fonts/upheavtt.ttf') format('truetype'), url('fonts/upheavtt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    position: relative
+
+  }
+  
+canvas {
+    border: 1px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+button {
+  font-family: 'upheaval';
+  font-size: 50px;
+  text-align: center;
+}
+
+.screen {
+  background-image: url(../BindingOfAnna/sprites/greyisaac.jpg);
+  background-size:contain;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.title {
+  margin-top: 50px;
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+h1 {
+  color:black;
+  margin-top: 50px;
+}
+
+.instructions {
+  margin-top: 50px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+
+
 

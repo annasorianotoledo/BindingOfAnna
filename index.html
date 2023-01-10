@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Binding of Anna</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body> 
+ 
+  <div id="start-screen" class="screen" style="display: block" style="width: 960px" height="960px">
+  <img class="title" src="sprites/title.png" style="width: 100%">
+  <div class="btn"><button onclick="startGame()">START</button></div>
+  <h1>Instructions</h1>
+  <img class="instructions" src="sprites/instructions.png">
+  <h2>Overcome the largest number of enemy waves and gather coins!</h2>
+  </div>
+
+  <div class="container">
+  <canvas id="canvas" width="960px" height="700px" style="display: none"></canvas>
+  </div>
+
+  <script src="constants.js"></script>
+  <script src="background.js"></script>
+  <script src="player.js"></script>
+  <script src="bullet.js"></script>
+  <script src="enemy.js"></script>
+  <script src="fly.js"></script>
+  <script src="heart.js"></script>
+  <script src="coin.js"></script>
+  <script src="game.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
 
